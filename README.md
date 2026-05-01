@@ -13,15 +13,14 @@ This project forecasts daily bike rental demand for a Washington D.C. bike-share
 .
 ├── analysis.py                  # Full analysis pipeline (EDA, modeling, evaluation)
 ├── data.csv                     # Hourly bike rental dataset (2011-2012)
-├── figures/                     # All generated figures (created by analysis.py)
-├── CycleSense_Report_v2.pdf     # Final project report
-├── Phase2_Presentation.pptx     # Stakeholder presentation slides
+├── CycleSense_Report_Thejaswini_Mundargi.pdf     # Final project report
+├── Phase2_Presentation.pptx     # Phase II presentation slides
 └── README.md
 ```
 
 ## Dataset
 
-- **Source:** Capital Bikeshare, Washington D.C. (UCI Bike Sharing Dataset)
+- **Source:** Capital Bikeshare, Washington D.C. 
 - **Period:** January 1, 2011 — December 31, 2012
 - **Records:** 17,379 hourly observations, aggregated to 731 daily observations
 - **Target variable:** `cnt` (total daily bike rentals)
@@ -61,8 +60,8 @@ pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/<your-username>/cyclesense-analytics.git
-cd cyclesense-analytics
+git clone https://github.com/tmundargi-ai/CycleSense_Analytics.git
+cd CycleSense_Analytics
 ```
 
 2. Make sure `data.csv` is in the project root directory.
