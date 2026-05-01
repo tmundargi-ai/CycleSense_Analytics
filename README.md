@@ -1,11 +1,11 @@
-# CycleSense Analytics — Phase II: Bike-Share Demand Forecasting
+# CycleSense Analytics Project: Urban Bike-Share Demand Forecasting
 
 **CS 595: Time Series Analysis and Forecasting | Spring 2026**
-**Thejaswini Mundargi — A20586100**
+**Thejaswini Mundargi - A20586100**
 
 ## Project Overview
 
-This project forecasts daily bike rental demand for a Washington D.C. bike-share operator 14 days ahead, with prediction intervals to support fleet planning decisions. It was completed as Phase II of the CS 595 course project at Illinois Institute of Technology.
+This project forecasts daily bike rental demand for a Washington D.C. bike-share operator 14 days ahead, with prediction intervals to support fleet planning decisions. It was completed as Phase II of the CS 595 course project.
 
 ## Repository Structure
 
@@ -21,7 +21,7 @@ This project forecasts daily bike rental demand for a Washington D.C. bike-share
 ## Dataset
 
 - **Source:** Capital Bikeshare, Washington D.C. 
-- **Period:** January 1, 2011 — December 31, 2012
+- **Period:** January 1, 2011 to December 31, 2012
 - **Records:** 17,379 hourly observations, aggregated to 731 daily observations
 - **Target variable:** `cnt` (total daily bike rentals)
 
